@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanduiche", "Sanduiche\Sanduiche.csproj", "{53E73B04-8F78-442C-9C8A-778CED12908E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanduiche.Test", "Sanduiche.Test\Sanduiche.Test.csproj", "{8F5756CE-F227-49DD-A7D0-995D1FE6CF7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E73B04-8F78-442C-9C8A-778CED12908E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E73B04-8F78-442C-9C8A-778CED12908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E73B04-8F78-442C-9C8A-778CED12908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E73B04-8F78-442C-9C8A-778CED12908E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5756CE-F227-49DD-A7D0-995D1FE6CF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5756CE-F227-49DD-A7D0-995D1FE6CF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5756CE-F227-49DD-A7D0-995D1FE6CF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5756CE-F227-49DD-A7D0-995D1FE6CF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
