@@ -18,4 +18,14 @@ public class ProgramTest
             Assert.Contains(expected, saida.ToString());
         }
     }
+
+    [Fact]
+    public void PegarFatiaDeQueijo(){
+        string expected = "Peguei uma fatia de queijo.";
+
+        string actual = Program.PegarFatiaDeQueijo();
+
+        Assert.Equal(expected, actual);
+    }
+
 }
