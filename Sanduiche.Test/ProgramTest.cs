@@ -21,11 +21,25 @@ public class ProgramTest
 
     [Fact]
     public void PegarFatiaDeQueijo(){
-        string expected = "Peguei uma fatia de queijo.";
+        string expected = "Peguei uma fatia de queijo.\n";
 
-        string actual = Program.PegarFatiaDeQueijo();
+        string actual = Program.PegarFatia("queijo", 1);
 
         Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void PegarFatiaDeMortadela(){
+        string expected = "Peguei uma fatia de mortadela.\nPeguei uma fatia de mortadela.\n";
+
+        string actual = Program.PegarFatia("mortadela", 2);
+
+        Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void PegarFatiaNegativa(){
+        Assert.Throws<ArgumentOutOfRangeException>(() => Program.PegarFatia("presunto", -2));
     }
 
 }
