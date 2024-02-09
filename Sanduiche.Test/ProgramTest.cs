@@ -23,7 +23,7 @@ public class ProgramTest
     public void PegarFatiaDeQueijo(){
         string expected = "Peguei uma fatia de queijo.\n";
 
-        string actual = Program.PegarFatia("queijo", 1);
+        string actual = Robo.PegarFatia("queijo", 1);
 
         Assert.Equal(expected, actual);
     }
@@ -32,14 +32,14 @@ public class ProgramTest
     public void PegarFatiaDeMortadela(){
         string expected = "Peguei uma fatia de mortadela.\nPeguei uma fatia de mortadela.\n";
 
-        string actual = Program.PegarFatia("mortadela", 2);
+        string actual = Robo.PegarFatia("mortadela", 2);
 
         Assert.Equal(expected, actual);
     }
 
     [Fact]
     public void PegarFatiaNegativa(){
-        Assert.Throws<ArgumentOutOfRangeException>(() => Program.PegarFatia("presunto", -2));
+        Assert.Throws<ArgumentOutOfRangeException>(() => Robo.PegarFatia("presunto", -2));
     }
 
 }
